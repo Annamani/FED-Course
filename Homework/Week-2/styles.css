@@ -1,0 +1,11 @@
+.attraction-name{
+    font-style: italic;
+    color:red;
+}
+.attraction-description{
+    font-style: oblique;
+}
+img{
+    height: 300px;
+    width:300px;
+}

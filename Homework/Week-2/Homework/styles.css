@@ -36,14 +36,19 @@ img{
     text-align: justify;
 }
 
-
-
 .product-price{
     color:blueviolet;
     font-size: larger;
     font-weight: bold;
 }
+.dicounted-price{
+    font-size: small;
+    color:lightslategray;
+    padding:1rem;
+}
 .add-to-cartbtn{
+    display: flex;
+    align-items: center;
     background-color: rgb(115, 0, 255);
     border:none;
     color:white;

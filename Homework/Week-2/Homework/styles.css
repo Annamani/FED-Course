@@ -33,3 +33,16 @@ img{
 .product-details{
     position:relative;
 }
+.add-to-cartbtn{
+    background-color: rgb(115, 0, 255);
+    border:none;
+    color:white;
+    font-size:medium;  
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.product-price{
+    color:blueviolet;
+    font-size: larger;
+    font-weight: bold;
+}

@@ -3,17 +3,32 @@
     flex-wrap: wrap;
 } */
 img{
-    height: 400px;
-    width:400px;
+    height: 300px;;
+    width:300px;
+    padding-right: 2rem;
 }
 .product-type{
     color:lightslategrey;
+    display: inline-block;
+    padding:2rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
 }
+.product-name{
 
+}
+.product-description{
+    font-size: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
 .container{
+    padding:5rem 1rem;
+    margin:1rem;
     display:flex;
-    flex-direction: column;
-    gap:0.5rem;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 .product-details{
     position:relative;

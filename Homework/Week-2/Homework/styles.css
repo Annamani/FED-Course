@@ -37,6 +37,8 @@ img{
 }
 
 .product-price{
+    padding:1rem;
+    margin-bottom: 1.5rem
     color:blueviolet;
     font-size: larger;
     font-weight: bold;
@@ -53,6 +55,7 @@ img{
     border:none;
     color:white;
     font-size:medium;  
-    padding: 1rem;
+    padding:1rem;
+    margin-bottom: 1.5rem;
     border-radius: 0.5rem;
 }

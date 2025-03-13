@@ -1,11 +1,8 @@
 
 .container{
-    padding:5rem 1rem;
-    margin:1rem;
     display:flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
 }
 img{
     height: 300px;;

@@ -1,5 +1,13 @@
+
+.product-name{
+    flex-wrap: wrap;
+}
+
+
+
+
 .product-type{
-    text-decoration:none;
+    color:lightslategrey;
 }
 
 .container{

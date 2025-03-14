@@ -11,10 +11,14 @@
     display:flex;
 }
 img{
-    height: 500px;;
-    width:400px;
-    padding-right: 2rem;
-    padding-top: 2rem;
+    height: 300px;;
+    width:200px;
+    /* padding-right: 2rem;
+    padding-top: 2rem; */
+    padding:2rem;
+    background-color: whitesmoke;
+    border: 2px solid rgb(245, 236, 236);
+    border-radius: 5px;
 }
 
 /* .product-details{

@@ -48,7 +48,8 @@ img{
 }
 .dicounted-price{
     font-size: normal;
-    margin-left: 2rem;
+    padding-left: 1rem;
+    margin-left: auto;
     color:lightslategray;
 }
 .add-to-cartbtn{

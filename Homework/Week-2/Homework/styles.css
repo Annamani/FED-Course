@@ -9,6 +9,9 @@
 }
 .container{
     display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap:2rem;
 }
 img{
     height: 300px;;
@@ -50,13 +53,13 @@ img{
     font-weight: bold;
 }
 .dicounted-price{
-    font-size: small;
+    font-size: normal;
     color:lightslategray;
     padding:1rem;
 }
 .add-to-cartbtn{
     display: flex;
-    align-items: center;
+    flex-grow: 2;
     background-color: rgb(115, 0, 255);
     border:none;
     color:white;

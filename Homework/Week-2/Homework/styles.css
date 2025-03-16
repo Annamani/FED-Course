@@ -28,6 +28,7 @@ img{
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+    
 }
 .product-type{
     color:lightslategrey;

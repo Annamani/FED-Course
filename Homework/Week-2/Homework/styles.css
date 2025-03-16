@@ -28,7 +28,7 @@ img{
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    
+
 }
 .product-type{
     color:lightslategrey;
@@ -42,7 +42,7 @@ img{
 .product-description{
     margin-bottom: 1.5rem;
     font-size: medium;
-    font-family:Poppins;
+    font-family:Playfair Display;
     text-align: justify;
 }
 

@@ -1,6 +1,4 @@
 //Functions
-
-
 function moneyToSpendInCoffeeUntil80(age, price)
 {
   let remainingAge=80-age;

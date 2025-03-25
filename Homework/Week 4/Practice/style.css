@@ -1,0 +1,15 @@
+#mydiv{
+    background-color:rgb(0, 251, 255);
+    height:50px;
+}
+.myclass{
+    background-color: aquamarine;
+    height:50px;
+}
+div{
+    height:50px;
+    background-color: burlywood;
+}
+.list-item{
+    background-color: rgb(255, 196, 238);
+}

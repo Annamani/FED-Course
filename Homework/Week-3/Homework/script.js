@@ -5,7 +5,8 @@ function foodOrder(restaurantName,foodName, totalPrice)
     // console.log("Your food from "+foodName);
     // console.log("Your total price for the food  "+totalPrice);
     // console.log("\n");
-   console.log("You are ordering an amount of "+totalPrice + "DKK "+foodName+" from " +restaurantName);
+    console.log(`You are ordering an amount of  ${totalPrice} DKK  ${foodName} from ${restaurantName}`);
+   //console.log("You are ordering an amount of "+totalPrice + "DKK "+foodName+" from " +restaurantName);
 }
 
 

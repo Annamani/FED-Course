@@ -1,0 +1,17 @@
+/* Sets the size and background color for all div elements. 
+   Every div will be 100px tall, 200px wide, and have a greenyellow background */
+div {
+  height: 100px;
+  width: 200px;
+  background-color: greenyellow;
+}
+
+/* Changes the background color to aqua for any div that has the class "box" */
+.box {
+  background-color: aqua;
+}
+
+/* Changes the background color to pink for the div that has the id "my-div" */
+#my-div {
+  background-color: pink;
+}

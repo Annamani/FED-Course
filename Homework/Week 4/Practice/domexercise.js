@@ -21,5 +21,4 @@ console.log(fourthElement.length);
 const resultElement=document.getElementById('count-list');
 resultElement.innerText=fourthElement.length;
 
-
-const header=document.getElementsByName
+//Modifying text content

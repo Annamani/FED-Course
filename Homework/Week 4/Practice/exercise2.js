@@ -19,3 +19,4 @@ secondDivElement.style.backgroundColor = "yellow";
 const thirdDivElement = document.querySelector(".second-box");
 thirdDivElement.classList.add("hidden-element");
 
+

@@ -7,7 +7,7 @@ let count=0;
 //     console.log(count); 
 // }
 let incrementCounter=()=> displayValue.innerHTML = ++count;
-//console.log(incrementCounter);
+// console.log(incrementCounter);
 
 // function decrementCounter() {
 //     count--;  
@@ -16,7 +16,9 @@ let incrementCounter=()=> displayValue.innerHTML = ++count;
 // }
 let decrementCounter=()=> displayValue.innerHTML = --count;
 // console.log(decrementCounter);
+// console.log(decrementCounter);
 // function resetCounter() {
 //     displayValue.innerHTML = 0;
 // }
 const resetCounter=()=>displayValue.innerHTML = 0;
+// console.log(resetCounter);

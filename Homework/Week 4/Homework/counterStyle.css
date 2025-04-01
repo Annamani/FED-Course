@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f54e;
+}
+
+#counterDiv{
+
+}

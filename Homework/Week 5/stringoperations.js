@@ -7,7 +7,13 @@ function uppercaseFirstLetter(empName){
 
 
 }
-
+// function lowercaseSecondLetter(studentName){
+//     console.log(studentName);
+//     let secondLetter=studentName[1];
+//     //console.log(secondLetter);
+//     console.log(`${secondLetter.toLowerCase()}${studentName.slice(2)}`);   
+//    }
 uppercaseFirstLetter("annamani");
+// lowercaseSecondLetter("KAMMA");
 // let updatedString=uppercaseFirstLetter("annamani");
 // console.log(updatedString);

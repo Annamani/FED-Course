@@ -1,5 +1,4 @@
 const displayValue = document.getElementById("counterDiv");
-console.log(displayValue); 
 let count=0;
 const incrementValue = document.getElementById("increment");
 incrementValue.addEventListener("click",()=>{

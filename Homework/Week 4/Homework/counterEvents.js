@@ -23,5 +23,6 @@ decrementValue.addEventListener("click",()=>{
 })                                  
 const resetValue = document.getElementById("reset");
 resetValue.addEventListener("click",()=>{
-    displayValue.innerHTML = 0;
+    count=0;
+    displayValue.innerHTML = count;
 })

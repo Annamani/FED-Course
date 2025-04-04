@@ -1,13 +1,24 @@
 body {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-size: 2em;
+    height: 10vh;
+    margin: 0;
+    
+}
+#counterDiv{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2em;
-    height: 100vh;
-    margin: 0;
-    background-color: #f5f54e;
+    height:400px;
+    max-width: 400px;
+    background-color: #4ecef5;
 }
-
-#counterDiv{
-
+#buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:400px;
+    max-width: 400px;
 }

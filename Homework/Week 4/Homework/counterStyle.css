@@ -1,24 +1,17 @@
 body {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     font-size: 2em;
     height: 10vh;
-    margin: 0;
-    
+    margin: 50px;
 }
 #counterDiv{
     display: flex;
     justify-content: center;
     align-items: center;
-    height:400px;
-    max-width: 400px;
+    height:200px;
+    width: 200px;
     background-color: #4ecef5;
 }
-#buttons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height:400px;
-    max-width: 400px;
-}
+.buttons{
+    padding: 20px;
+    font-size: 1em;    
+} 

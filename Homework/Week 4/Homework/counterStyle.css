@@ -1,17 +1,17 @@
 body {
-    font-size: 2em;
-    height: 10vh;
-    margin: 50px;
+  font-size: 2em;
+  height: 10vh;
+  margin: 50px;
 }
-#counterDiv{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height:200px;
-    width: 200px;
-    background-color: #4ecef5;
+#counterDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  background-color: #4ecef5;
 }
-.buttons{
-    padding: 20px;
-    font-size: 1em;    
-} 
+.buttons {
+  padding: 20px;
+  font-size: 1em;
+}

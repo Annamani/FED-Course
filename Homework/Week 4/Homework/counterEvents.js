@@ -1,6 +1,12 @@
+// First let's assign the variables to the elements in the HTML
 const displayValue = document.getElementById("counterDiv");
-let count = 0;
 const incrementValue = document.getElementById("increment");
+const decrementValue = document.getElementById("decrement");
+const resetValue = document.getElementById("reset");
+
+// Then any variables we need to keep track of
+let count = 0;
+
 incrementValue.addEventListener("click", () => {
   if (count < 30) {
     count++;
@@ -10,7 +16,7 @@ incrementValue.addEventListener("click", () => {
   displayValue.innerHTML = count;
   console.log(count);
 });
-const decrementValue = document.getElementById("decrement");
+
 decrementValue.addEventListener("click", () => {
   if (count > 0) {
     count--;
@@ -20,7 +26,7 @@ decrementValue.addEventListener("click", () => {
   displayValue.innerHTML = count;
   console.log(count);
 });
-const resetValue = document.getElementById("reset");
+
 resetValue.addEventListener("click", () => {
   count = 0;
   displayValue.innerHTML = count;

@@ -10,9 +10,15 @@
     <h1>Counter:</h1>
     <div id="counterDiv">0</div>
     <div class="buttons">
-      <button id="increment">+</button>
-      <button id="decrement">-</button>
-      <button id="reset">Reset</button>
+      <button id="increment" class="button">
+        +
+        <span class="visually-hidden">Increment</span>
+      </button>
+      <button id="decrement" class="button">
+        -
+        <span class="visually-hidden">Decrement</span>
+      </button>
+      <button id="reset" class="button">Reset</button>
     </div>
   </body>
   <script src="counterEvents.js"></script>

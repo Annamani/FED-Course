@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Welcome to Ops</title>
-
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comparison Exercises</title>
+ </head>
+  <body>
+    <h1>Comparison Exercises</h1>
     
-</body>
-<script src="operationExamples.js"></script>
+    <div class="input-group">
+        <h2>Driving License Check</h2>
+        <input type="number" id="grade" placeholder="Enter your grade">
+        <!-- <input type="number" id="quantity" placeholder="Enter your missed classes"> -->
+        <button onclick="onGradeCheck()">Check Grade</button>
+        <div id="gradeResult"></div>
+    </div>
+
+    <div class="input-group">
+        <h2>Name Check (Bonus)</h2>
+        <input type="text" id="name" placeholder="Enter a name">
+        <button onclick="onNameCheck()">Check Name</button>
+        <div id="nameResult"></div>
+    </div>
+  </body>
+<!-- <script src="conditionalExercise.js"></script> -->
+<!-- <script src="comparisonExamples.js"></script> -->
+<script src="switchExercise.js"></script>
 </html>

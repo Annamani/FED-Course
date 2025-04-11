@@ -21,15 +21,13 @@ function counterUpdate(){
   //whenever it reaches 20,“Out of stock” and disable the + button
   else if (count >= 20) {
     messageElement.innerHTML = '<span>Out of Stock</span>';
+    incrementElement.style.backgroundColor = 'red';
     incrementElement.disabled = true;
   }
   else {
     messageElement.innerHTML = '';
   }
- 
-  //Using ternary operator
-  incrementElement.style.backgroundColor = count>=20? 'red':'';
-}
+ }
 
 incrementElement.addEventListener("click", () => {
   if (count < 30) {

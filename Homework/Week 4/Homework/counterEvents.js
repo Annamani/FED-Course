@@ -28,7 +28,8 @@ function counterUpdate(){
     messageElement.innerHTML = '';
   }
  }
-
+ 
+//Increment Counter
 incrementElement.addEventListener("click", () => {
   if (count < 30) {
     count++;
@@ -39,6 +40,7 @@ incrementElement.addEventListener("click", () => {
   counterElement.innerHTML = count;
 });
 
+//Decrement Counter
 decrementElement.addEventListener("click", () => {
   if (count > 0) {
     count--;
@@ -49,6 +51,7 @@ decrementElement.addEventListener("click", () => {
   counterElement.innerHTML = count;
 });
 
+//Reset Counter
 resetElement.addEventListener("click", () => {
   count = 0;
   counterElement.innerHTML = count;

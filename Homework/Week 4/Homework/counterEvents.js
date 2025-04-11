@@ -13,10 +13,18 @@ let count = 0;
 function counterUpdate(){
   //Disable the ‘-’ button whenever the counter reaches 0 
   decrementElement.disabled = count === 0;
+  //Disable the ‘+’ button whenever the counter reaches 30
+  incrementElement.disabled = count === 30;
+  //Disable the ‘Reset’ button whenever the counter reaches 0
+  resetElement.disabled = count === 0;
+  //Free shipping message when counter goes to 10 and less than 20
   if (count >= 10 && count < 20) {
     messageElement.innerHTML = '<span>You have free shipping</span>';
-  } else if (count >= 20) {
+  } 
+  //whenever it reaches 20,“Out of stock” and disable the + button
+  else if (count >= 20) {
     messageElement.innerHTML = '<span>Out of Stock</span>';
+    incrementElement.disabled = true;
   }
   else {
     messageElement.innerHTML = '';

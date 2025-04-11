@@ -47,7 +47,6 @@ decrementElement.addEventListener("click", () => {
      alert("Counter cannot go below zero.");
   }
   counterElement.innerHTML = count;
-  // console.log(count);
 });
 
 resetElement.addEventListener("click", () => {

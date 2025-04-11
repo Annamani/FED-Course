@@ -13,10 +13,7 @@ let count = 0;
 function counterUpdate(){
   //Disable the ‘-’ button whenever the counter reaches 0 
   decrementElement.disabled = count === 0;
-  //Disable the ‘+’ button whenever the counter reaches 30
-  incrementElement.disabled = count === 30;
-  //Disable the ‘Reset’ button whenever the counter reaches 0
-  resetElement.disabled = count === 0;
+
   //Free shipping message when counter goes to 10 and less than 20
   if (count >= 10 && count < 20) {
     messageElement.innerHTML = '<span>You have free shipping</span>';
@@ -29,10 +26,7 @@ function counterUpdate(){
   else {
     messageElement.innerHTML = '';
   }
-  //Change the ‘+’ button’s background=red whenever the counter reaches 20 or greater
-  // if (count >=20){
-  //   incrementElement.style.backgroundColor = 'red';
-  // }
+ 
   //Using ternary operator
   incrementElement.style.backgroundColor = count>=20? 'red':'';
 }

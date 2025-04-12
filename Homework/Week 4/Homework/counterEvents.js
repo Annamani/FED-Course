@@ -22,7 +22,7 @@ function isAtMin() {
 }
 
 //Counter display update
-function counterUpdate() {
+function updateCounter() {
   // Increment Element
   if (isOutOfStock()) {
     incrementElement.disabled = true;
@@ -57,7 +57,7 @@ function counterUpdate() {
 incrementElement.addEventListener("click", () => {
   if (count < 30) {
     count++;
-    counterUpdate();
+    updateCounter();
   } else {
     alert("Counter cannot go above 30.");
   }
@@ -67,7 +67,7 @@ incrementElement.addEventListener("click", () => {
 decrementElement.addEventListener("click", () => {
   if (count > 0) {
     count--;
-    counterUpdate();
+    updateCounter();
   } else {
     alert("Counter cannot go below zero.");
   }
@@ -77,7 +77,7 @@ decrementElement.addEventListener("click", () => {
 resetElement.addEventListener("click", () => {
   count = 0;
   // Don't forget to update the counter state
-  counterUpdate();
+  updateCounter();
 });
 
-counterUpdate();
+updateCounter();

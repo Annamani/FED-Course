@@ -8,23 +8,49 @@ const messageElement = document.getElementById("message");
 // Then any variables we need to keep track of
 let count = 0;
 
+// Key Constants as separate variables for better readability (and an easier way to change them)
+const maxAvailableStock = 20;
+const minFreeShipping = 10;
+
+// Helper functions
+function isOutOfStock() {
+  return count >= maxAvailableStock;
+}
+
+function isAtMin() {
+  return count <= 0;
+}
+
 //Counter display update
 function counterUpdate() {
-  //Disable the ‘-’ button whenever the counter reaches 0
-  decrementElement.disabled = count === 0;
-
-  //Free shipping message when counter goes to 10 and less than 20
-  if (count >= 10 && count < 20) {
-    messageElement.innerHTML = "<span>You have free shipping</span>";
-  }
-  //whenever it reaches 20,“Out of stock” and disable the + button
-  else if (count >= 20) {
-    messageElement.innerHTML = "<span>Out of Stock</span>";
-    incrementElement.style.backgroundColor = "red";
+  // Increment Element
+  if (isOutOfStock()) {
     incrementElement.disabled = true;
+    incrementElement.style.backgroundColor = "red";
+  } else {
+    incrementElement.disabled = false;
+    incrementElement.style.backgroundColor = "";
+  }
+
+  // Decrement Element
+  if (isAtMin()) {
+    decrementElement.disabled = true;
+  } else {
+    decrementElement.disabled = false;
+  }
+
+  // Message Element
+  // Show message when count is 10 or more
+  if (isOutOfStock()) {
+    messageElement.innerHTML = "<span>Out of Stock</span>";
+  } else if (count >= minFreeShipping) {
+    messageElement.innerHTML = "<span>You have free shipping</span>";
   } else {
     messageElement.innerHTML = "";
   }
+
+  // Update the counter display
+  counterElement.innerHTML = count;
 }
 
 //Increment Counter
@@ -35,7 +61,6 @@ incrementElement.addEventListener("click", () => {
   } else {
     alert("Counter cannot go above 30.");
   }
-  counterElement.innerHTML = count;
 });
 
 //Decrement Counter
@@ -46,13 +71,13 @@ decrementElement.addEventListener("click", () => {
   } else {
     alert("Counter cannot go below zero.");
   }
-  counterElement.innerHTML = count;
 });
 
 //Reset Counter
 resetElement.addEventListener("click", () => {
   count = 0;
-  counterElement.innerHTML = count;
+  // Don't forget to update the counter state
+  counterUpdate();
 });
 
 counterUpdate();

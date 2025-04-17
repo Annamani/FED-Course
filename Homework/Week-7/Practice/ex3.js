@@ -73,11 +73,4 @@
 // console.log(total)
 
 
-console.log(0%7);
-console.log(1%7);
-console.log(2%7); 
-console.log(3%7);
-console.log(4%7);
-console.log(5%7);
-console.log(6%7);
-console.log(7%7);
+

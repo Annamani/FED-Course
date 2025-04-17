@@ -39,10 +39,10 @@ console.log(shuffledTeachers);
 //pick first student, pick first teacher and assign them.
 //Randomly assign students to teachers
 //save the result in a array of objects [ {...}, {...}, {...} ]
-const assignedStudents = students.map((shuffledStudents, index) => {
+const assignedStudents = students.map((shuffledStudents,index) => {
   return {
     student: shuffledStudents,
-    teacher: shuffledTeachers[index % shuffledTeachers.length],
+    teacher: shuffledTeachers[index%shuffledTeachers.length],
   };
 });
 console.log(assignedStudents);

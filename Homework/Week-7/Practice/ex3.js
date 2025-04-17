@@ -62,13 +62,22 @@
 
 
 
-const items = [
-  { name: 'Apple', price: 5 },
-  { name: 'Orange', price: 8 },
-  { name: 'Mango', price: 2 },
-];
+// const items = [
+//   { name: 'Apple', price: 5 },
+//   { name: 'Orange', price: 8 },
+//   { name: 'Mango', price: 2 },
+// ];
 
-let total=0;
-items.forEach((i)=>(total+=i.price));
-console.log(total)
+// let total=0;
+// items.forEach((i)=>(total+=i.price));
+// console.log(total)
 
+
+console.log(0%7);
+console.log(1%7);
+console.log(2%7); 
+console.log(3%7);
+console.log(4%7);
+console.log(5%7);
+console.log(6%7);
+console.log(7%7);

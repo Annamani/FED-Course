@@ -1,0 +1,33 @@
+body {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color: #f7f7f7;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  background-color: #4c89af;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  font-size: medium;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+li {
+  border: 1px solid rgb(234, 219, 219);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 15px;
+  width: 220px;
+  text-align: center;
+}

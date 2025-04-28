@@ -30,6 +30,7 @@ const menuElement = document.getElementById("menu-list");
 function productDetails(products) {
   menuElement.innerHTML = "";
   for (let item of products) {
+    // Good job on dynamically creating HTML elements with a loop and appending them to the DOM.
     const [itemName, price, category, image] = item;
 
     //Create a li item in every iteration
@@ -37,8 +38,12 @@ function productDetails(products) {
 
     //Creating an <img> element for the product image
     //Attach these 4 elements to the <li> created before
+
     const newElementImage = document.createElement("img");
     newElementImage.src = image;
+
+    // Alternatively to setting width and height attributes, you can use CSS to control the img size.
+    // For example, you can use classList.add() to add a class that sets the image size.
     newElementImage.setAttribute("height", "100");
     newElementImage.setAttribute("width", "100");
     newElementImage.setAttribute("alt", "Sorry!Img not Found");
@@ -55,6 +60,8 @@ function productDetails(products) {
 
     const newElementCategory = document.createElement("p");
     newElementCategory.innerHTML = category;
+    // There's a small bug here. It looks like you meant to append newElementCategory,
+    // but instead, you're appending newElementName.
     newListElement.appendChild(newElementName);
     //Attach the <li> to the <ul> element
     menuElement.appendChild(newListElement);

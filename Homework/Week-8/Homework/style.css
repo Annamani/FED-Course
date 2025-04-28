@@ -1,5 +1,5 @@
 body {
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   background-color: #f7f7f7;
   margin: 20px;
 }
@@ -16,6 +16,9 @@ button {
   border: none;
   font-size: medium;
 }
+
+/* To improve the look of your list, try removing the default margin on the <ul> 
+   and the bullet points on the <li> items. This isn't always necessary, but it matches the style you're going for. :) */
 
 ul {
   display: flex;

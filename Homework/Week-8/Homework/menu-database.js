@@ -55,7 +55,7 @@ function productDetails(products) {
 
     const newElementCategory = document.createElement("p");
     newElementCategory.innerHTML = category;
-    newListElement.appendChild(newElementName);
+    newListElement.appendChild(newElementCategory);
     //Attach the <li> to the <ul> element
     menuElement.appendChild(newListElement);
   }

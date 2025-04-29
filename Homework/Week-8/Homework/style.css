@@ -30,4 +30,5 @@ li {
   padding: 15px;
   width: 220px;
   text-align: center;
+  list-style-type: none;
 }

@@ -60,9 +60,7 @@ function productDetails(products) {
 
     const newElementCategory = document.createElement("p");
     newElementCategory.innerHTML = category;
-    // There's a small bug here. It looks like you meant to append newElementCategory,
-    // but instead, you're appending newElementName.
-    newListElement.appendChild(newElementName);
+    newListElement.appendChild(newElementCategory);
     //Attach the <li> to the <ul> element
     menuElement.appendChild(newListElement);
   }
